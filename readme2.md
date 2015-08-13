@@ -136,7 +136,6 @@ To obtain the list of all requests (pending, accepted, denied or all) simply cal
 
   To obtain the list of all, pending, accepted or denied requests, simply call this method with the respectively status: AOApprovalRequestStatusAll, AOApprovalRequestStatusPending, AOApprovalRequestStatusApprove or AOApprovalRequestStatusDeny.
 
-
 **Remember** the array of requests contains `AOApprovalRequest` objects. You can see its properties directly from the `AOApprovalRequest.h` file included inside the 'include' folder added earlier.
 
 ### Approve/deny a request
